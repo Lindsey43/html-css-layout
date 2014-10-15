@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+
+body{
+	outline 1px solid red;
+}
+
+.wrapper{
+	max-width: 3960px;
+margin: 0 auto;
+background: purple;
+
+}
+header, footer{
+	background: pink;
+	text-align: center;
+}
+
+/* -- Grid Style -- */
+
+.col-2{
+	margin: 10rem 0;
+
+}
+@media screen and (min-width: 600px;){
+	.col-2{
+	float: left;
+	width: 50%;	
+	}
+}
+
+
