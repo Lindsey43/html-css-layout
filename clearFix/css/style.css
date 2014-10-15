@@ -41,12 +41,14 @@ header, footer{
 }
 
 /* -- Grid Style -- */
-
+.col-container{
+	width: 100%;
+}
 .col-2{
 	margin: 10rem 0;
 
 }
-@media screen and (min-width: 600px;){
+@media screen and (min-width: 600px){
 	.col-2{
 	float: left;
 	width: 50%;	
