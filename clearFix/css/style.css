@@ -48,11 +48,28 @@ header, footer{
 	margin: 10rem 0;
 
 }
+/* --Grid col-3 Style -- */
+.col-3{
+	width: 29.33%;
+	float: left;
+	margin-left: 0;
+}
+
 @media screen and (min-width: 600px){
-	.col-2{
+.col-2{
 	float: left;
 	width: 50%;	
+	background: green;
+
 	}
 }
 
+.col-3{
+	width: 29.33%;
+	float: left;
+	margin-left: 0;
+}
+.col-3first-child{
+	margin-left: 0;
+}
 
